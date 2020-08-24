@@ -1,13 +1,9 @@
----
-title: JS Questions
----
-
-- Varibales
-- Scoping
-- Object Ref VS Copy
-- Functions (anonymous vs named expressions arrow functions, methods)
-- DOM - selecting, updating, deleting
-- Prototypes + this: Prototypes allow you to add properties to your object constructors. This in a constructor refers to the property within that constructor.
-- Events: listening, callbacks, dispatchEvent, Bubbling
-- Arrays
-- Flow control
+1. [Varibales]
+2. [Scoping]
+3. [Objects]
+4. [Functions]
+5. [DOM]
+6. [Prototypes](javascript/prototypes.md)
+7. [Events]
+8. [Arrays]
+9. [Flow-Control]
