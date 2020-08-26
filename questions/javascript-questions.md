@@ -4,7 +4,7 @@
 4. [Functions]
 5. [DOM]
 6. [Prototypes](javascript/prototypes.md)
-7. [Events]
+7. [Events](javascript/events.md)
 8. [Arrays]
 9. [Flow-Control]
 10. [This](javascript/this.md)
