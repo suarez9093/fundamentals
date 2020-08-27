@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body onclick="bodyClick()">
+    <main onclick="mainClick()">
+        <ul>
+            <li style="background-color:red" onclick="click()">One</li>
+            <li>two</li>
+        </ul>
+    <main>
+        <script>
+            function click(){
+            alert("li clicked")            }
+            function mainClick(){
+                console.log('main clicked')
+            }
+            function bodyClick(){
+                console.log('body clicked')
+            }
+        </script>
+</body>
+</html>
