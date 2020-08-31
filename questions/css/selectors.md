@@ -18,3 +18,9 @@ The ::after following the .title class is a pseudo element. The browser adds the
   content: "abcd";
 }
 ```
+
+The result:
+
+```html
+<h1 class="title">This is my titleabcd</h1>
+```
