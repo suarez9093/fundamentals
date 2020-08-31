@@ -1,5 +1,9 @@
 # Events
 
+- An event is something you do on the webpage. Moving mouse, clicking, scrolling. The browswer listens for events and handles response.
+
+- Example of events are: click, dblclick, mousedown, mouseup, mousemove, mouseover, mouseout
+
 1. Explain event delegation - A way you can add an event listener once for multiple elements with support for adding extra children.
 
 ```javascript
