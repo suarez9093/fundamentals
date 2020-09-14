@@ -15,3 +15,4 @@ title: CSS Questions
 - [Sizing units](): px, rem, em, percentages, fr.
 - [Typography]()
 - [Media Queries]()
+- [Difference between normalizing and resetting CSS](/css/resetting.md)
