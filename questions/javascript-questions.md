@@ -10,3 +10,4 @@
 10. [This](javascript/this.md)
 11. [Conditionals](javascript/short-circuiting.md)
 12. [Closures](javascript/closures.md)
+13. [Higher Order Functions](javascript/hof.md)

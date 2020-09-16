@@ -25,3 +25,5 @@ count(); // Returns 0
 
 // Countdown will return 7
 ```
+
+- Approach to using HOF to preserve data through closures is called Partial Applicaions
