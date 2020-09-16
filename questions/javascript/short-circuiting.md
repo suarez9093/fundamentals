@@ -1,6 +1,6 @@
 # Short Circuiting
 
-Cutting down on conditional using an || operator to provide a value.
+Cutting down on conditional using logical operators to provide a value.
 
 Example:
 

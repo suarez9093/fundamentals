@@ -7,3 +7,5 @@
 4. [What are some accessibility basics]()
 5. [Attributes]
 6. [What is a srcset and why would you use it](/html/srcset.md)
+7. [What are some HTML templating languages and have you used them](html/template-languages.md)
+8. [How do you serve a page with content in multiple languages](html/multiple-languages.md)
