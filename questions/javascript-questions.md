@@ -11,3 +11,4 @@
 11. [Conditionals](javascript/short-circuiting.md)
 12. [Closures](javascript/closures.md)
 13. [Higher Order Functions](javascript/hof.md)
+14. [Difference between forEach() and map()](javascript/mapAndForEach.md)
