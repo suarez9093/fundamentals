@@ -87,7 +87,7 @@ const user = {
   title: "Programmer"
 }
 
-function printBio(city, country) {
+function printUser(city, country) {
   console.log(`${this.name} is a ${this.title} in ${city}, ${country}`);
 }
 
@@ -109,5 +109,41 @@ function printBio(city, country) {
 printBio.apply(user, ['London', 'England'])
 
 // Difference between call and apply is that you have to pass the arguements as an array and not as individual arguements.
+// =============
+bind() // binds this to a specific object
+
+const user = {
+  name: "Reed",
+  title: "Programmer"
+}
+
+function printUser() {
+  console.log(`${this.name} is a ${this.title}`);
+}
+
+const userDescription = printUser.bind(user);
+
+const user2 = {
+  name: "Doug",
+  title: "Entrepreneur"
+}
+
+printUser.bind(user2)
+
+userDescription(); // goind to be bound to the origional obj it was bound to. so "Reed is a Programmer would be the result of calling userDescription"
+
+// ===================
+
+const user = {
+  first: 'Bob',
+  fn() {
+     console.log(this.first);
+  },
+  arrowFn: () => {
+    console.log(this.first);
+  }
+}
+
+user.arrowFn(); // returns null. Arrow functions don't have their own this binding
 
 ```
