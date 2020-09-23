@@ -4,3 +4,5 @@
 2. [What is JSX](react/jsx.md)
 3. [Describe the React Lifecycle](react/lifecycle.md)
 4. [What is the difference between React.Component and React.PureComponent](react/purecomponent.md)
+5. [What is a Synthetic Event?](react/syntheticEvent.md)
+6. [How are events different in React that in the browser?](react/handleEvents.md)

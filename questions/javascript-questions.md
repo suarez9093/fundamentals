@@ -24,3 +24,4 @@
 24. [What are Promises and how might you use them? How to they relate to asyc/await?]()
 25. [What is a constructor function?](javascript/constructor.md)
 26. [What is prototypical inheritance?](javascript/prototype-inheritance.md)
+27. [What is a Class?](javascript/class.md)

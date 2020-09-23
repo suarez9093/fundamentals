@@ -7,7 +7,7 @@ title: CSS Questions
 3. [Layouts]()
 4. [Box Model](css/box-model.md)
 5. [Positioning]()
-6. [Forms and inputs]()
+6. [Forms and inputs](css/forms-and-inputs.md)
 7. [Block VS inline vs inline-block](css/block-inline-inlineBlock.md)
 8. [Sizing units](css/sizing-units.md)
 9. [Typography]()
