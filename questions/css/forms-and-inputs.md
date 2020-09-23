@@ -28,4 +28,4 @@ input[type="text"] {
 }
 ```
 
-![Search Bar](../images/search)
+![](../images/search.png)
