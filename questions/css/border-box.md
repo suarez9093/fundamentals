@@ -5,6 +5,7 @@
 Default width and height of an element is calculated:
 
 width + padding + border = actual width of an element
+<br/>
 height + padding + border = actual height of an element
 
 ```css
