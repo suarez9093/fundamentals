@@ -12,6 +12,7 @@ title: CSS Questions
 8. [Sizing units](css/sizing-units.md)
 9. [Typography]()
 10. [Media Queries]()
-11. [Difference between normalizing and resetting CSS](/css/resetting.md)
+11. [Difference between normalizing and resetting CSS](css/resetting.md)
 12. [What is a float and how does it work](css/floats.md)
 13. [Descrive z-index and how stacking context is formed](css/z-index.md)
+14. [What does \* {box-sizing: border-box} do? Advantages?](css/border-box.md)
