@@ -44,4 +44,4 @@ If setting box-sizing: border-box the padding and border are included in the wid
 }
 ```
 
-![](../images/div2.png)
+![](../images/div-2.png)
