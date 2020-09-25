@@ -27,4 +27,6 @@
 27. [What is a Class?](javascript/class.md)
 28. [What is the difference between cookies, session storage and session storage?](javascript/storage.md)
 29. [What are getters and setters?](javascript/gettersAndSetters.md)
-30. [What are promises?](javascript/promises.md)
+30. [What is a Promise?](javascript/promises.md)
+31. [What is an API?](javascript/api.md)
+32. [What does the fetch() method do?](javascript/fetch.md)

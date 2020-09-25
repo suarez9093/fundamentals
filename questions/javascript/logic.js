@@ -1,7 +1,13 @@
-let promise = new Promise((resolve, reject) => {
-  setTimeout(() => resolve("done"), 2000);
+let geolocation = new Promise((resolve, reject) => {
+  navigator.geolocation.getCurrentPosition(
+    (position) => {
+      resolve(position);
+    },
+    (error) => reject(error)
+  );
 });
 
-console.log(promise);
-
-// All created promises can invoke two methods then() and catch()
+geolocation
+  .then((res) => console.log("res", res))
+  .catch((err) => console.error(err))
+  .finally(console.log("Promise executed"));
