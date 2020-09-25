@@ -25,3 +25,6 @@
 25. [What is a constructor function?](javascript/constructor.md)
 26. [What is prototypical inheritance?](javascript/prototype-inheritance.md)
 27. [What is a Class?](javascript/class.md)
+28. [What is the difference between cookies, session storage and session storage?](javascript/storage.md)
+29. [What are getters and setters?](javascript/gettersAndSetters.md)
+30. [What are promises?](javascript/promises.md)

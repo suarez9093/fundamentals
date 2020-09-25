@@ -1,4 +1,4 @@
-# What does \* {box-sizing: border-box} do? Advantages?
+# What does \* { box-sizing: border-box } do? Advantages?
 
 - Allows the inclusion of padding and border in an element's total width and height
 
