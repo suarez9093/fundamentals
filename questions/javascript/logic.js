@@ -1,13 +1,25 @@
-let geolocation = new Promise((resolve, reject) => {
-  navigator.geolocation.getCurrentPosition(
-    (position) => {
-      resolve(position);
-    },
-    (error) => reject(error)
-  );
-});
+const getUser = async () => {
+  try {
+    const res = await fetch("https://jsonplaceholder.typicode.com/users/3");
+    if (!res.ok) {
+      throw new Error(res.status);
+    }
+    const data = await res.json();
+    console.log(`${data.name} works for ${data.company.name}`);
+  } catch (err) {
+    console.error(err);
+  }
+};
+getUser();
+// fetch("https://jsonplaceholder.typicode.com/users/3")
+//   .then((response) => {
+//     if (!response.ok) {
+//       throw new Error(response.status);
+//     }
 
-geolocation
-  .then((res) => console.log("res", res))
-  .catch((err) => console.error(err))
-  .finally(console.log("Promise executed"));
+//     return response.json();
+//   })
+//   .then((person) =>
+//     console.log(`${person.name} works for ${person.company.name}`)
+//   )
+//   .catch((err) => console.error(err));
