@@ -1,8 +1,6 @@
----
-title: CSS Questions
----
+# CSS Questions
 
-1. [Specificity](css/specificity.model)
+1. [Specificity](css/specificity.md)
 2. [Selectors](css/selectors.md)
 3. [Layouts]()
 4. [Box Model](css/box-model.md)
