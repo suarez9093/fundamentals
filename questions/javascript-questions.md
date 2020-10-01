@@ -21,7 +21,7 @@
 19. [What does the spread operator do in JavaScript?](javascript/spread.md)
 20. [What is the difference between filter, find and reduce?](javascript/arrayMethods.md)
 21. [What does the keyword new do and how does it relate to prototypes?](javascript/prototype.md)
-22. [What is the difference between == and ===]()
+22. [What is the difference between =, == and ===](javascript/assignmentAndRelationalOperator.md)
 23. [What is Async/Await?](javascript/async-await.md)
 24. [What is a constructor function?](javascript/constructor.md)
 25. [What is prototypical inheritance?](javascript/prototype-inheritance.md)

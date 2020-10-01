@@ -7,8 +7,8 @@
 1. Cannot use undeclared variables
 2. Deleting a variable or function is not allowed
 3. Duplicating a parameter name is not allowed
-4. Certain variable names cannot be used such as eval and arguents
-5. this behaves differntly
+4. Certain variable names cannot be used such as eval and arguments
+5. this behaves differently
 
 ```JavaScript
 "use strict";

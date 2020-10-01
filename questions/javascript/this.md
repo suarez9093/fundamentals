@@ -37,7 +37,7 @@ const user = {
     },
   },
 };
-user.userInfo.greetUser(); // => "Hi, Reed Barger". 'this' refers to the obj in which it's called in.
+user.userInfo.greetUser(); // => "Hi, Alex Suarez". 'this' refers to the obj in which it's called in.
 user.getJob(); // => "I am a Developer"
 
 /*
