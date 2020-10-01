@@ -9,11 +9,15 @@
   3. class, attributes or pseudo selectors (10 pts)
   4. element selectors (1 pt)
 
+### HTML
+
 ```html
 <body>
   <h1 id="h1" class="h1" style="color: orange">Coding challenge: Events</h1>
 </body>
 ```
+
+### CSS
 
 ```css
 #h1 {
