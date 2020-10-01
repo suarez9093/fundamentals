@@ -1,25 +1,22 @@
-const getUser = async () => {
-  try {
-    const res = await fetch("https://jsonplaceholder.typicode.com/users/3");
-    if (!res.ok) {
-      throw new Error(res.status);
-    }
-    const data = await res.json();
-    console.log(`${data.name} works for ${data.company.name}`);
-  } catch (err) {
-    console.error(err);
-  }
-};
-getUser();
-// fetch("https://jsonplaceholder.typicode.com/users/3")
-//   .then((response) => {
-//     if (!response.ok) {
-//       throw new Error(response.status);
-//     }
+// Challenge:
+// 1. Select h1 and add a click event listener.
+// Log the text from the element to the console.
 
-//     return response.json();
-//   })
-//   .then((person) =>
-//     console.log(`${person.name} works for ${person.company.name}`)
-//   )
-//   .catch((err) => console.error(err));
+// If you're not sure how to get text, feel free to check out hint.js
+
+// 2. Add the same functionality to all the elements displayed
+// in Scrimba web browser. Finally, try to trigger the event when you
+// hover the mouse over the elements, instead of when clicking on them
+
+const h1 = document.querySelector("h1");
+
+h1.addEventListener("click", (e) => {
+  console.log(e.target.textContent);
+});
+
+const body = document.querySelector("body");
+console.dir(body.children);
+
+for (let i = 0; i < body.children.length; i++) {
+  body.children[i].addEventListener("mouseover", (e) => console.log(e.target));
+}
