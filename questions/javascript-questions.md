@@ -31,3 +31,4 @@
 29. [What is a Promise?](javascript/promises.md)
 30. [What is an API?](javascript/api.md)
 31. [What does the fetch() method do?](javascript/fetch.md)
+32. [What is the Browser object model?](javascript/bom.md)

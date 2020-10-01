@@ -3,7 +3,7 @@
 1. [Specificity](css/specificity.md)
 2. [Selectors](css/selectors.md)
 3. [Layouts]()
-4. [Box Model](css/box-model.md)
+4. [What is the Box Model?](css/box-model.md)
 5. [Positioning]()
 6. [Forms and inputs](css/forms-and-inputs.md)
 7. [Block VS inline vs inline-block](css/block-inline-inlineBlock.md)
