@@ -10,3 +10,4 @@ This repo contains fundammental questions about Web topics
 4. [React](questions/react-questions.md)
 5. [Performance Questions](questions/performance-questions.md)
 6. [Database](questions/database.md)
+7. [Web Questions](questions/web.md)
