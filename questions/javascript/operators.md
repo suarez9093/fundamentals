@@ -6,6 +6,18 @@
 
 ### Binary
 
-| Arithmatic Operators | String Contactenation | Comparison                      |
-| -------------------- | --------------------- | ------------------------------- |
-| +, -, /, \*, %       | +                     | ==, !==, ===, !==, <, >, <=, >= |
+| Arithmatic     | String Contactenation | Comparison                      |
+| -------------- | --------------------- | ------------------------------- |
+| +, -, /, \*, % | +                     | ==, !==, ===, !==, <, >, <=, >= |
+
+### Unary
+
+| Arithmatic           | Logical               | Value type |
+| -------------------- | --------------------- | ---------- |
+| - to negage a number | ! to negate logically | typeof     |
+
+### Ternary
+
+| Operator |
+| -------- |
+| (?:)     |
