@@ -1,4 +1,13 @@
-# What is the difference between =, == and === ?
+# What are the different types of operators?
+
+1. Binary
+2. Unary
+3. Ternary
+
+### Binary
+
+- Arithmitic binary operators:
+  - +, -, \*, /, %
 
 "=" is the assignment operator. It assigns a value to something.
 <br />
