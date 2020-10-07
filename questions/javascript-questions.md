@@ -32,3 +32,6 @@
 30. [What is an API?](javascript/api.md)
 31. [What does the fetch() method do?](javascript/fetch.md)
 32. [What is the Browser object model?](javascript/bom.md)
+33. [What is type conversion?](javascript/type-conversion.md)
+34. [What are side effects?](javascript/side-effects.md)
+35. [What is recursion? Give an example of how to use it](javascript/recursion.md)
