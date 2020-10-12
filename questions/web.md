@@ -5,3 +5,4 @@
 3. [What are parts of a request?](web/requests.md)
 4. [What is is a response?](web/response.md)
 5. [What is SSL](web/ssl.md)
+6. [How does routing work for?](web/routing.md)
