@@ -14,3 +14,5 @@
 12. [What is a float and how does it work](css/floats.md)
 13. [Descrive z-index and how stacking context is formed](css/z-index.md)
 14. [What does \* {box-sizing: border-box} do? Advantages?](css/border-box.md)
+15. [What is a Preprocessor?](css/preprocessor.md)
+16. [What is the difference between SASS and SCSS?](css/sass-scss.md)
