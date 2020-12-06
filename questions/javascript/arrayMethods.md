@@ -4,16 +4,16 @@ The find() function returns the value of the first element in an array that pass
 
 ```javascript
 const menuItems = [
-  { item: "Blue Cheese Salad", price: 8 },
-  { item: "Spicy Chicken Rigatoni", price: 18 },
-  { item: "Ponzu Glazed Salmon", price: 23 },
-  { item: "Philly Cheese Steak", price: 13 },
-  { item: "Baked Italian Chicken Sub", price: 12 },
-  { item: "Pan Seared Ribeye", price: 31 },
+  { item: 'Blue Cheese Salad', price: 8 },
+  { item: 'Spicy Chicken Rigatoni', price: 18 },
+  { item: 'Ponzu Glazed Salmon', price: 23 },
+  { item: 'Philly Cheese Steak', price: 13 },
+  { item: 'Baked Italian Chicken Sub', price: 12 },
+  { item: 'Pan Seared Ribeye', price: 31 },
 ];
 
 const item = menuItems.find((item) =>
-  item.item.toLowerCase().includes("spicy")
+  item.item.toLowerCase().includes('spicy')
 );
 
 console.log(item); // => {item: "Spicy Chicken Rigatoni", price: 18}
@@ -23,12 +23,12 @@ The filter method creates an array filled with all array elements that pass a fu
 
 ```javascript
 const menuItems = [
-  { item: "Blue Cheese Salad", price: 8 },
-  { item: "Spicy Chicken Rigatoni", price: 18 },
-  { item: "Ponzu Glazed Salmon", price: 23 },
-  { item: "Philly Cheese Steak", price: 13 },
-  { item: "Baked Italian Chicken Sub", price: 12 },
-  { item: "Pan Seared Ribeye", price: 31 },
+  { item: 'Blue Cheese Salad', price: 8 },
+  { item: 'Spicy Chicken Rigatoni', price: 18 },
+  { item: 'Ponzu Glazed Salmon', price: 23 },
+  { item: 'Philly Cheese Steak', price: 13 },
+  { item: 'Baked Italian Chicken Sub', price: 12 },
+  { item: 'Pan Seared Ribeye', price: 31 },
 ];
 
 const items = menuItems.filter((item) => {
@@ -40,12 +40,12 @@ console.log(items); // => [{item: "Spicy Chicken Rigatoni", price: 18}, {item: "
 
 ```javascript
 const menuItems = [
-  { item: "Blue Cheese Salad", price: 8 },
-  { item: "Spicy Chicken Rigatoni", price: 18 },
-  { item: "Ponzu Glazed Salmon", price: 23 },
-  { item: "Philly Cheese Steak", price: 13 },
-  { item: "Baked Italian Chicken Sub", price: 12 },
-  { item: "Pan Seared Ribeye", price: 31 },
+  { item: 'Blue Cheese Salad', price: 8 },
+  { item: 'Spicy Chicken Rigatoni', price: 18 },
+  { item: 'Ponzu Glazed Salmon', price: 23 },
+  { item: 'Philly Cheese Steak', price: 13 },
+  { item: 'Baked Italian Chicken Sub', price: 12 },
+  { item: 'Pan Seared Ribeye', price: 31 },
 ];
 
 const total = menuItems.reduce((accumulator, menuItem) => {

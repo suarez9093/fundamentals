@@ -12,3 +12,4 @@ This repo contains fundammental questions about Web topics
 6. [Database](questions/database.md)
 7. [Web Questions](questions/web.md)
 8. [Testing](questions/testing.md)
+9. [Redux](questions/redux.md)
