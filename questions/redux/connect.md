@@ -43,5 +43,15 @@ const mapDispatchToProps = {
   decrement: decrement,
 };
 
+function App(props) {
+  return (
+    <>
+      <button onClick={props.increment}>Increment</button>
+    </>
+  );
+}
+
 connect(mapStateToProps, mapDispatchToProps)(Component);
 ```
+
+The above code will take the action creator passed through props and increment a count which will update the store.
