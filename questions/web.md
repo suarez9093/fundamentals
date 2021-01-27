@@ -7,3 +7,4 @@
 5. [What is SSL](web/ssl.md)
 6. [How does routing work for?](web/routing.md)
 7. [What is caching?](web/caching.md)
+8. [What are cookies?](web/cookies.md)
