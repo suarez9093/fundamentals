@@ -8,3 +8,6 @@
 6. [How does routing work for?](web/routing.md)
 7. [What is caching?](web/caching.md)
 8. [What are cookies?](web/cookies.md)
+9. [What is a Blob?](web/blob.md);
+10. [What is URL encoding?](web/urlEncoding.md)
+11. [HTTP Headers](web/headers.md)
