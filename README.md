@@ -14,4 +14,5 @@ This repo contains fundammental questions about Web topics
 8. [Testing](questions/testing.md)
 9. [Redux](questions/redux/redux.md)
 10. [GraphQL](questions.graphQL.md)
-11. [PHP](questions.php.md)
+11. [PHP](questions/php.md)
+12. [TypeScript](questions/typescript.md)

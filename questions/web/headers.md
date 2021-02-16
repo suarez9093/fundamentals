@@ -8,3 +8,7 @@
 2. Request - contains info about the resourse to be fetched. Or about client requesting resource.
 3. Response - hold additional information about the response, like its location or about the server providing it.
 4. Entity - contain information about the body of the resource, like its content length or MIME (media )type.
+
+# Request
+
+Host - specifies the host and port number of the server to which the request is being sent.
