@@ -1,5 +1,8 @@
-# Basics
+# Core Types
 
-### What is typescript
+1. number
+2. string
+3. boolean
+4. object
 
-A superset of JavaScript.
+JS uses "dynamic types", resolved at runtime, and TS uses "static types" which are set during development
