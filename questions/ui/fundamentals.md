@@ -18,8 +18,8 @@ p {
 ```
 
 2. Color
-3. Contrast
-4. Scale
-5. Alignment
+3. Contrast - a strikingly different state from something else.
+4. Scale - 
+5. Alignment - Every element is positioned correctly in relation to other elements
 6. Typography
 7. Visual Hierarchy
