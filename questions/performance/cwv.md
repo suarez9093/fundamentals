@@ -4,4 +4,4 @@ Surfaced accross all Google Tools and are what Google thinks all site owners sho
 
 The three current Core Web Vitals are:
 
-[](./img/image.png)
+![](./img/image.png)
