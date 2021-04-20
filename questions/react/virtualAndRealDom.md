@@ -15,3 +15,7 @@
 - Once the VDOM is updated it compares the current VDOM vs a snapshot (VDOM before the update).
 - Diffing: the process of figuring out what changed from the new VDOM vs the snapshot.
 - React will then update the real DOM once it knows what changed in the VDOM and only change those objects.
+
+## Diffing
+
+- The virtual dom is a copy of the real dom. The virtual dom will look at the real dom and if there is a difference then the dom will update with that change.
