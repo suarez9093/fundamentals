@@ -43,7 +43,7 @@ class SaleProduct extends Product {
   }
 }
 
-const product1 = new SaleProduct("Coffee Maker", 99, true, 20);
+const product1 = new SaleProduct('Coffee Maker', 99, true, 20);
 
 console.log(product1); // => ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
 ```
@@ -73,7 +73,7 @@ class SaleProduct extends Product {
   }
 }
 
-const product1 = new SaleProduct("Coffee Maker", 99, true, 20);
+const product1 = new SaleProduct('Coffee Maker', 99, true, 20);
 
 console.log(product1);
 // => SaleProduct {
@@ -111,6 +111,20 @@ class SaleProduct extends Product {
   }
 }
 
-const product1 = new SaleProduct("Coffee Maker", 99, true, 20);
+const product1 = new SaleProduct('Coffee Maker', 99, true, 20);
 console.log(product1.getSalePrice()); // => returns 79.2
+```
+
+```javascript
+class Color {
+  constructor(r, g, b, name) {
+    this.r = r;
+    this.g = g;
+    this.b = b;
+    this.name = name;
+  }
+  greet() {
+    return `Hello ${this.name}`;
+  }
+}
 ```

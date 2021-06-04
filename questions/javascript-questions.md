@@ -36,3 +36,4 @@
 34. [What are side effects?](javascript/side-effects.md)
 35. [What is recursion? Give an example of how to use it](javascript/recursion.md)
 36. [What is Encapsulation?](javascript/encapsulation.md)
+37. [What is state and how do you manage it?](javascript/state.md)

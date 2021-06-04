@@ -1,6 +1,6 @@
 # Prototypes
 
-1. Most objects have a Prototype. A prototype is another object that is used as a fallback source of properties. When an object gets a request for a property it does not have its prototype will be searched for the property then the prototype' prototype etc.
+1. Most objects have a Prototype (template obj). A prototype is another object that is used as a fallback source of properties. When an object gets a request for a property it does not have its prototype will be searched for the property then the prototype' prototype etc.
 
 ```javascript
 let empty = {};
@@ -26,4 +26,15 @@ let protoRabbit = {
 };
 let killerRabbit = Object.create(protoRabbit); // creates an object with a specific prototype. killerRabbit gets it's prototype from protoRabbit
 console.log(Object.getPrototypeOf(killerRabbit)); // {fluffy: true, speak: [Function: speak]}
+```
+
+### **proto**
+
+**proto** is a property that references the prototype.
+
+```javascript
+Array.prototype; // the actual prototype
+
+const array = [];
+console.log(array); // __proto__ is a reference to the Array.prototype
 ```
