@@ -1,3 +1,3 @@
 # Critical Render Path
 
-[](./img/image.jpg)
+![](./img/image.jpg)
