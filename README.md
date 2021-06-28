@@ -17,3 +17,4 @@ This repo contains fundammental questions about Web topics
 11. [PHP](questions/php.md)
 12. [TypeScript](questions/typescript.md)
 13. [UI](questions/ui.md)
+14. [Architecture](questions/architecture.md)
