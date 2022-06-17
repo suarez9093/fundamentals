@@ -2,7 +2,7 @@
 
 1. [What is the difference between var, let and const?](javascript/variables.md)
 2. [Scoping]()
-3. [Objects]()
+3. [Objects](javascript/objects.md)
 4. [Functions]()
 5. [DOM]()
 6. [Prototypes](javascript/prototypes.md)
@@ -37,3 +37,7 @@
 35. [What is recursion? Give an example of how to use it](javascript/recursion.md)
 36. [What is Encapsulation?](javascript/encapsulation.md)
 37. [What is state and how do you manage it?](javascript/state.md)
+
+
+## Courses
+1. [PluralSite](./javascript/pluralsite/readMe.md)

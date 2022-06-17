@@ -4,6 +4,12 @@ This repo contains fundammental questions about Web topics
 
 ## Table of Contents
 
+## Index
+- [Fundamentals](##Fundamentals)
+- [Books](##books)
+
+
+## Fundamentals
 1. [HTML Questions](questions/html-questions.md)
 2. [CSS Questions](questions/css-questions.md)
 3. [JS Questions](questions/javascript-questions.md)
@@ -19,3 +25,9 @@ This repo contains fundammental questions about Web topics
 13. [UI](questions/ui.md)
 14. [Architecture](questions/architecture.md)
 15. [Docker](questions/docker.md)
+16. [Computer Science](questions/computer-science.md)
+
+
+## Books
+[Eloquent JavaScript](./books/eloquent_js/eloquent_js.md)))
+

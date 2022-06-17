@@ -15,3 +15,4 @@
 13. [Refs](react/refs.md)
 14. [Context](react/context.md)
 15. [Misc scrimba questions](react/reactscrimbamisc.md)
+16. [UseMemo](react/usememo.md)
